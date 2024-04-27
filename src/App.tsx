@@ -1,14 +1,13 @@
+import Footer from "./Footer"
 import React from "react"
 
-function App() {
- 
+
+const App: React.FC =() => {
 
   return (
-    <>
-      <div>
-        <h1>Footer</h1>
-      </div>
-    </>
+    <div className="bg-black">
+      <Footer/>
+    </div>
   )
 }
 
